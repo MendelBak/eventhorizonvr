@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: lato-hairline;
+    src: url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-q.woff2);
+}
+@font-face {
+    font-family: "Lato";
+    src: local("Lato Light"), local("Lato-Light"), url("https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 300;
+    unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body{
+    background: url("../Images/VR+Image.jpeg") no-repeat center center fixed;
+    background-position-y: 50px;
+    /* opacity: 0.5; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Lato;
+}
+#wrapper{
+    margin-top: 50px;
+    height: 800px;
+    font-family: lato-hairline;
+}
+#centerContent{
+    width: 50%;
+    margin: 100px auto;
+}
+#homeCenterTitle{
+    font-size: 115px;
+    text-align: center;
+    color: black;
+}
+.centerInfo{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Services.html ****************************** */
+#centerTitle{
+    margin-top: 75px;
+    font-size: 85px;
+    text-align: center;
+    color: black;
+}
+#aboutTitle{
+    font-size: 85px;
+    text-align: center;
+    color: black;
+}
+#servicesCenterContent{
+    margin: 100px auto 0;
+    text-align: center;
+    width: 400px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* END Services.html ****************************** */
+
+/* about.html ****************************** */
+#aboutCenterContent{
+    margin: 100px auto 0;
+    text-align: center;
+    width: 400px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* END about.html ****************************** */
+
+/* contact.html ****************************** */
+#contactTitle{
+    margin-top: 75px;
+    font-size: 85px;
+    text-align: center;
+    color: black;
+}
+#contactCenterContent{
+    margin: 100px auto 0;
+    text-align: center;
+    width: 400px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* END contact.html ****************************** */
+
+/* faq.html ****************************** */
+#faqTitle{
+    margin-top: 75px;
+    font-size: 85px;
+    text-align: center;
+    color: black;
+}
+#htcvive{
+    display: block;
+    margin: 75px auto 0;
+    border-radius: 20px;
+}
+#faqCenterContent{
+    text-align: center;
+    margin: 50px 50px;
+    color: black;
+}
+#faqCenterContent h2{
+    font-family: lato-hairline;
+    font-size: 20px;
+    font-weight: bold;
+}
+#faqCenterContent p{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+/* END faq.html ****************************** */
+
