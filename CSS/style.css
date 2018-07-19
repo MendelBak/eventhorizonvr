@@ -40,9 +40,10 @@ footer {
     margin: 100px auto;
 }
 #homeCenterTitle{
-    font-size: 115px;
+    font-size: 5em;
     text-align: center;
     color: black;
+    margin-bottom: 10%;
 }
 .centerInfo{
     font-family: Lato;
@@ -50,16 +51,22 @@ footer {
     font-weight: 300;
     text-align: center;
 }
+#indexFooter{
+    border: white solid 1px;
+    opacity: 0.8;
+    background: #d4e9ee;
+    border-radius: 5px;
+}
 
 /* Services.html ****************************** */
 #centerTitle{
     margin-top: 75px;
-    font-size: 85px;
+    font-size: 5em;
     text-align: center;
     color: black;
 }
 #aboutTitle{
-    font-size: 85px;
+    font-size: 5em;
     text-align: center;
     color: black;
 }
@@ -87,7 +94,7 @@ footer {
 /* contact.html ****************************** */
 #contactTitle{
     margin-top: 75px;
-    font-size: 85px;
+    font-size: 5em;
     text-align: center;
     color: black;
 }
@@ -104,7 +111,7 @@ footer {
 /* faq.html ****************************** */
 #faqTitle{
     margin-top: 75px;
-    font-size: 85px;
+    font-size: 5em;
     text-align: center;
     color: black;
 }
